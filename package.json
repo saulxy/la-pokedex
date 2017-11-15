@@ -1,0 +1,27 @@
+{
+  "name": "la-pokedex",
+  "version": "1.0.0",
+  "description": "Cross-platform Pokedex (Linux, Windows and macOS)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulxy/la-pokedex.git"
+  },
+  "keywords": [
+    "Electron",
+    "pokemon",
+    "pokedex"
+  ],
+  "author": "saulxy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulxy/la-pokedex/issues"
+  },
+  "homepage": "https://github.com/saulxy/la-pokedex#readme",
+  "devDependencies": {
+    "electron": "1.7.9"
+  }
+}
