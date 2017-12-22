@@ -1,6 +1,14 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 const url = require('url')
+const Hapi = require('hapi')
+
+const request = require('request');
+
+request('http://pokeapi.co/api/v2/pokemon/1/', { json: true }, (err, res, body) => {
+  if (err) { return console.log(err); }
+  console.log(body.forms);
+});
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -18,7 +26,7 @@ function createWindow () {
   }))
 
   // Open the DevTools.
-  win.webContents.openDevTools()
+  //win.webContents.openDevTools()
 
   // Emitted when the window is closed.
   win.on('closed', () => {
