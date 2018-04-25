@@ -1,0 +1,147 @@
+/*
+  Color theme: https://coolors.co/
+  coolors.co/4381c1-c5d1eb-92afd7-5a7684-4e4b5c 
+*/
+body{
+  background: url('resources/dadbe48e.png') repeat;
+}
+
+.profile{
+  background-color: #4381C1;
+  color: #C5D1EB;
+  border-radius: 1em 0 1em 0;
+  width: 10em;
+  height: 11em;
+  display: inline-block;
+}
+
+.profile h2{
+  border-radius: 1em 0 0 0;
+  font-size: 1em;
+  padding: 0.5em;
+  background-color: #C5D1EB;
+  margin: 0 auto;
+  color: #4E4B5C;
+}
+
+.profile span.type{
+  padding: 0.4em;
+  color: white;
+  border-radius: 0.5em;
+}
+
+.profile span.normal{
+  background-color: #A8A878;
+}
+.profile span.normal:after {content: 'Normal';}
+
+.profile span.fire{
+  background-color: #F08030;
+}
+.profile span.fire:after {content: 'Fire';}
+
+.profile span.fighting{
+  background-color: #C03028;
+}
+.profile span.fighting:after {content: 'Fighting';}
+
+.profile span.water{
+  background-color: #6890F0;
+}
+.profile span.water:after {content: 'Water';}
+
+.profile span.flying{
+  background-color: #A890F0;
+}
+.profile span.flying:after {content: 'Flying';}
+
+ 
+.profile span.poison{
+  background-color: #A040A0;
+}
+.profile span.poison:after {content: 'Poison';}
+
+.profile span.grass{
+  background-color: #78C850;
+}
+.profile span.grass:after {content: 'Grass';}
+
+.profile span.electric{
+  background-color: #F8D030;
+}
+.profile span.electric:after {content: 'Electric';}
+
+.profile span.ground{
+  background-color: #E0C068;
+}
+.profile span.ground:after {content: 'Ground';}
+
+.profile span.psychic{
+  background-color: #F85888;
+}
+.profile span.psychic:after {content: 'Psychic';}
+ 
+.profile span.rock{
+  background-color: #B8A038;
+}
+.profile span.rock:after {content: 'Rock';}
+
+.profile span.ice{
+  background-color: #98D8D8;
+}
+.profile span.ice:after {content: 'Ice';}
+
+.profile span.bug{
+  background-color: #A8B820;
+}
+.profile span.bug:after {content: 'Bug';}
+
+.profile span.dragon{
+  background-color: #7038F8;
+}
+.profile span.dragon:after {content: 'Dragon';}
+
+.profile span.ghost{
+  background-color: #705898;
+}
+.profile span.ghost:after {content: 'Ghost';}
+ 
+.profile span.dark{
+  background-color: #705848;
+}
+.profile span.dark:after {content: 'Dark';} 
+
+.profile span.steel{
+  background-color: #B8B8D0;
+}
+.profile span.steel:after {content: 'Steel';}
+
+.profile span.fairy{
+  background-color: #EE99AC;
+}
+.profile span.fairy:after {content: 'Fairy';} 
+ 
+.profile p{
+  padding: 0.5em;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.profile h2 span{
+  border-radius: 1em 0 0 0;
+  font-size: 1em;
+  padding: 0.5em;
+  background-color: #C5D1EB;
+  margin: 0 auto;
+  color: #4E4B5C;
+}
+
+.profile .stat{
+  border-radius: 0.5em;
+  background-color: #4E4B5C;
+  color: white;
+  padding: 0.3em;
+  display: inline-block;
+  font-size: 0.6em;
+  margin: 0.5em;
+}
